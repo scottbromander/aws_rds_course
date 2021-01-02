@@ -29,6 +29,6 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 - Select a `Use Case` Scenario Option - Dev/Test
 - DB Instance Class - Comp and Memory resources instanced to support the DB. 
   - 3 types:
-    - Standard - M Prefix - Balance of Compute, Memory, and Network Resources
-    - Memory Optimized - X, R, and M2 Prefix - Performance (Up to almost 4 GB of DRAM)
-    - Burstable Performance - T Prefix - Good baseline, with ability to have burst of CPU through CPU credits.
+    - Standard - `M Prefix` - Balance of Compute, Memory, and Network Resources
+    - Memory Optimized - `X, R, and M2 Prefix` - Performance (Up to almost 4 GB of DRAM)
+    - Burstable Performance - `T Prefix` - Good baseline, with ability to have burst of CPU through CPU credits.
