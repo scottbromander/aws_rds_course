@@ -1,1 +1,2 @@
-# aws_rds_course
+# AWS RDS - Pluralsight Course
+
