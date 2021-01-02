@@ -32,3 +32,7 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
     - Standard - `M Prefix` - Balance of Compute, Memory, and Network Resources
     - Memory Optimized - `X, R, and M2 Prefix` - Performance (Up to almost 4 GB of DRAM)
     - Burstable Performance - `T Prefix` - Good baseline, with ability to have burst of CPU through CPU credits.
+- Multi Availablity Zone Deployment Option - Physical Locations - Do you want redundancy? Synchronous replication an option. RDS does manage all of this for you, which is awesome in a failover.
+- Type of Storage - SSD or Provisioned IOPS - General purpose SSD allows for up to 3 IOPS/GiB, but you can bank credits.
+
+- 
