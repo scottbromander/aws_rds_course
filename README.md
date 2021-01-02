@@ -21,3 +21,9 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 
 ### Creating a RDS DB Instance
 
+- Login to [AWS Console](https://aws.amazon.com/console/) - NOT ROOT USER! USE AN IAM USER!
+- All Services -> Choose RDS
+- Create Database
+- Select DB Engine - Note your region. Latency is a consideration for where you create your DB. When you select your DB Engine, this is where your DB will be created.
+- Note: Bottom of the screen, there is a check box for an RDS Free Usage Tier! Tick that if you are learning.
+- Select a `Use Case` Scenario Option - Dev/Test
