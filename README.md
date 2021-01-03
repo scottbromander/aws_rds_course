@@ -46,3 +46,4 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 - Encryption is enabled by default.
 - Backup - If you do not have another backup AZ, you may have lag when the backup is occuring.
 - Enhance monitoring does have a default free option.
+- Note that auto upgrading minor updates is set by default. 
