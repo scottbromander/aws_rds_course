@@ -41,4 +41,8 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 - Network and Security - All RDS instances reside on some VPC (Virtual Private Cloud) - Defaults are fine. But there may be a reason you need to set a different VPC. For example, if you have an EC2 instance, you may not want to have the RDS in another VPC, as communications would need to go through a public network to communicate between the two. So putting them in the same VPC, would make the communication between the two, occur through a private connection.
 - Public Accessibility needs to be considered here. If you are testing from a local machine for example, but want to access the RDS DB, then you need to set this to `yes`, as you want to allow outside connections coming from outside the default VPC.
 - VPC Security Group - In the case of just playing around, go ahead and use the `create new`. But if you were working within an existing VPC consideration, you would want to have this top of mind.
-
+- Database options - Name the Database! Note that the steps completed create an instance of the Databse Engine. Without naming a database, no database is created. Just the engine. More Databases can be created in the engine. 
+- You can edit the `PORT` of course - You can edit the DB parameter group - Finally, you can also edit the option group.
+- Encryption is enabled by default.
+- Backup - If you do not have another backup AZ, you may have lag when the backup is occuring.
+- Enhance monitoring does have a default free option.
