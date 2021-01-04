@@ -54,3 +54,8 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 - Once a custom group has been created, you can edit it. Tons of options! And then you can assign it to new DB instances.
 - Option groups - Same deal, defaults cannot be editted. 
 - `Add Option` - is a button available after you can highlight a box. Options are different and there are less of them than the parameters.
+
+## Amazon RDS and PostgreSQL
+
+- Note that AWS has version 12, but `homebrew` installs 13 as its default as of 1/1/21.
+- No configuration needed to export logs to CloudWatch if you check the log option.
