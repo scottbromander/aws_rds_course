@@ -47,3 +47,10 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 - Backup - If you do not have another backup AZ, you may have lag when the backup is occuring.
 - Enhance monitoring does have a default free option.
 - Note that auto upgrading minor updates is set by default. 
+
+### DB Parameter and Option Groups
+
+- Parameter groups - Default parameter groups, one issue is that defaults cannot be editted. Custom parameter groups can be editted. 
+- Once a custom group has been created, you can edit it. Tons of options! And then you can assign it to new DB instances.
+- Option groups - Same deal, defaults cannot be editted. 
+- `Add Option` - is a button available after you can highlight a box. Options are different and there are less of them than the parameters.
