@@ -59,3 +59,10 @@ Amazon Realtion Database Service (Amazon RDS) is a web service that makes it eas
 
 - Note that AWS has version 12, but `homebrew` installs 13 as its default as of 1/1/21.
 - No configuration needed to export logs to CloudWatch if you check the log option.
+
+
+## Notes on actual implementation
+
+- Check your VPC security groups. In the `inbound rules`, make sure your type is set to `PostgreSQL`, and then for testing source can be set to `0.0.0.0/0` (wildcard), but in production, you would want to create security groups and not have it all open to the wild.
+- During the creation of the DB, note the DB username and password. You will need this in your application (obviously).
+- `pg` works fine with Node. No additional configuration or modules needed.
